@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--space);
+  margin-right: -15px;
+}
+.header__column:first-child {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header__column:last-child {
+  display: flex;
+}
+
+.header__column:last-child i {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.header__column:last-child i {
+  margin-right: 15px;
+}
+@keyframes gearr {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.fa-gear:hover {
+  animation: gearr 1s linear infinite;
+}
+.more__span {
+  position: relative;
+}
+.span {
+  display: flex;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  background-color: tomato;
+  border-radius: 3.5px;
+  top: -3px;
+  right: 9px;
+}

@@ -1,0 +1,24 @@
+.suggestions__title {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.suggestions__colmn {
+  display: flex;
+  padding: 20px;
+}
+.suggestions__column__column img {
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+}
+.suggestions__column__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.suggestions__span {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}

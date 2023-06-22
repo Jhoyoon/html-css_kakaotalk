@@ -1,0 +1,44 @@
+.middle-bar {
+  margin: 20px -20px 10px -20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  align-items: center;
+}
+.middle-bar i:first-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+.middle-bar span {
+  margin-right: 20px;
+}
+.middle-bar i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+.index {
+  opacity: 10%;
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
